@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../images/snow.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Verdana";
+    margin:0;
+    
+   
+}
+h1{
+    margin-top: 100px;
+    font-size: 4rem;
+    font-weight: bold;
+    
+    -webkit-text-stroke: 1px whitesmoke;
+    -webkit-text-fill-color: white;
+    
+    
+}
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin : 1rem 2rem;
+    
+
+}
+
+.countdown-container div{
+    text-align : center;
+}
+
+.countdown-container span{
+    font-size: 1.5rem;
+}
+
+.newCount{
+    margin-top: 60px;
+    color:green;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.Count input{
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.Count button{
+    align-content: center;
+}
